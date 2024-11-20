@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "": "file:",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
   }
 }
