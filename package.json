@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "projeto-blog-fotos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,13 +18,13 @@
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Gabriel Teixeira Melo",
+    "email": "gabrieltmdev@gmail.com",
+    "url": "https://github.com/Gabriel-T-M-Dev"
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "node --watch --env-file=.env server.js",
     "test": ""
   },
   "dependencies": {
