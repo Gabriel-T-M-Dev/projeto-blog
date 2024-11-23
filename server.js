@@ -4,6 +4,7 @@ import routes from './src/routes/postsRoutes.js';
 const port = 3000; // Port that server will listen
 
 const app = express(); // Start express in 'app'
+app.use(express.static("uploads"));
 routes(app); // Call routes function from postsRoutes.js
 
 // Start server
